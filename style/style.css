@@ -18,18 +18,18 @@
   margin-bottom: 30px;
 }
 
-.section__text:not(:last-child) {
+.article__text:not(:last-child) {
   margin-bottom: 30px;
 }
 
-.container__wrapper {
+.navigation {
   max-width: 1140px;
   padding: 25px 45px;
   background: #F1F1F1;
   border-radius: 10px;
 }
 
-.wrapper__title {
+.navigation__title {
   font-weight: 700;
   font-size: 44px;
   line-height: 53px;
@@ -60,7 +60,7 @@
     margin-bottom: 10px;
   }
 
-  .section__title {
+  .article__title {
     font-weight: 900;
     font-size: 36px;
     line-height: 43px;
@@ -87,13 +87,13 @@
     margin-bottom: 30px;  
   }
 
-  .list__img {
+  .article__img {
     display: block;
     margin: 0 auto;
     margin-bottom: 30px;
   }
 
-  .list__item:not(:last-child) {
+  .article__item:not(:last-child) {
     margin-bottom: 30px;
   }
 
