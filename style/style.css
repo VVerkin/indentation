@@ -45,18 +45,7 @@
   border-bottom: 1px solid #000000;
 } 
 
-.navigation__list:before {
-  content: '';
-  width: 274px;
-  height: 10px;
-  background-image: url("../image/arrow/Arrow_1.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  right: 78%;
-  position: absolute;
-}
-
-  .navigation__item:not(:last-child) {
+.navigation__item:not(:last-child) {
     margin-bottom: 10px;
   }
 
