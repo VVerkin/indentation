@@ -1,0 +1,75 @@
+html {
+  box-sizing: border-box; 
+  position: relative; 
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; 
+}
+
+body {
+  min-width: 320px; 
+  min-height: 100vh; 
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  
+  color: #000000;
+}
+
+.article {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 60px 150px 50px;
+}
+
+section:not(:last-child) {
+  margin-bottom: 50px;
+}
+
+img, svg {
+  max-width: 100%; 
+  height: auto; 
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit; 
+  text-decoration: none; 
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+p, 
+figure, 
+fieldset,
+blockquote {
+  margin: 0;
+}
+
+iframe {
+  border: none;
+}
+
