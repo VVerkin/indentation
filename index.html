@@ -22,7 +22,7 @@
 
           <ol class="navigation__list">
             <li class="navigation__item">
-              <a href="#margin-padding" class="navigation__link">Отступ задается от предыдущего элемента к следующему</a>
+              <a href="#indent" class="navigation__link">Отступ задается от предыдущего элемента к следующему</a>
             </li>
             <li class="navigation__item">
               <a href="#dom" class="navigation__link">Отступ задается последнему возможному элементу в DOM-дереве</a>
@@ -35,16 +35,16 @@
       </div>
     </header>
     
-    <section id="margin-padding" class="margin-padding">
+    <section id="indent" class="indent">
       <div class="container clearfix">
         <h2 class="article__title">Отступ задается от предыдущего элемента к следующему: от первого ко второму, сверху вниз, слева направо.</h2>
-        <img class="margin-padding__img-left" src="image/margin-padding/img_left.jpg" alt="иллюстрация заданных внешних отступов справа и снизу">
+        <img class="indent__img-left" src="image/margin-padding/img_left.jpg" alt="иллюстрация заданных внешних отступов справа и снизу">
         <p class="article__text"><strong>ВАЖНО:</strong> <em>margin</em> всегда задают от предыдущего элемента к следующему.</p>
         <p class="article__text">Свойство <em>margin</em>  необходимо только для того, чтобы отодвинуть своего соседа справа или снизу, поэтому используется <em>margin-right</em>  и <em>margin-bottom</em>.</p>
         <p class="article__text">(!) Свойства <em>margin-left</em> и  <em>margin-top</em> используются крайне редко.</p>
         <p class="article__text clearfix">Для <em>padding</em> верно обратное. Исключением является его применения в декоративных целях, например, для увеличения области ссылки.</p>
 
-        <img class="margin-padding__img-right"  src="image/margin-padding/img_right.jpg" alt="показано применение padding-top к секции" >
+        <img class="indent__img-right"  src="image/margin-padding/img_right.jpg" alt="показано применение padding-top к секции" >
         <p class="article__text">Отступ внутри блока сверху или слева реализуется через <em>padding-top</em> и <em>padding-left</em> родителя.</p>
         <p class="article__text">Отступы, как правило, делают в направлении от предыдущего элемента к следующему. Так элемент не будет толкать сам себя.</p>
         <p class="article__text">Изначально элемент статичен, а его положение может меняться только под воздействием свойств других блоков или свойств родителя.</p>
@@ -157,7 +157,7 @@
     </section>
 
     <section class="result">
-      <div class="navigation">
+      <div class="result-wrapper">
         <h2 class="article__title">Подытожим:</h2>
 
         <ul class="result__list">
